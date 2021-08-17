@@ -55,6 +55,25 @@ const qb_mdt = new Vue({
         badgenumberData: '',
         dutyData: '',
         imageData: '',
+        
+                // Dispatch
+        zdispatch: 0,
+        dispatch: '',
+        dispatchCall: '',
+
+        // Warrants
+        zvehicleWarrant: 0,
+        vehicleWarrant: '',
+        vehicleWarrantSelected: '',
+        searchWarrants: '',
+        zpersonWarrant: '',
+        personWarrant: '',
+        FilterVehWarrants: '',
+        FilterWarrants: '',
+        zshowWarrants: '',
+        showWarrants: '',
+        selectedWarrant: '',
+        personWarrantSelected: '',
 
         // Criminal Records
         changeNote: false,
