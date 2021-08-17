@@ -154,7 +154,7 @@
                                 </div>
                             </div>
                         </v-fade-transition>
-                        
+
                         <v-fade-transition>
                             <div v-if='currentPage == "SEARCH VEHICLES"'>
                                 <div class='page-content'>
@@ -443,7 +443,7 @@
                             </v-overlay>
                         </v-fade-transition>
 
-<!--                         <v-fade-transition>
+                    <v-fade-transition>
                             <v-overlay class='dispatch-overlay' :z-index='zdispatch' :value='dispatch'>
                                 <div class='dispatch-card'>
                                     <h2>CALL ID: {{dispatchCall.id}}</h2>
@@ -455,9 +455,9 @@
                                     </div>
                                 </div>
                             </v-overlay>
-                        </v-fade-transition> -->
+                        </v-fade-transition>
 
-<!--                         <v-fade-transition>
+                    <v-fade-transition>
                             <v-overlay class='cr-newcharge-overlay' :z-index='zvehicleWarrant' :value='vehicleWarrant'>
                                 <div class='cr-newcharge-card'>
                                     <h2>VEHICLE: {{vehicleWarrantSelected.model}} | VEHICLE PLATE: {{vehicleWarrantSelected.plate}}</h2>
@@ -484,9 +484,9 @@
                                     <v-btn :disabled='vehicleWarrantSelected.title == "" || vehicleWarrantSelected.incident == ""' class='cr-newcharge-submit-btn' elevation='5' @click='createNewWarrant()'>Submit</v-btn>
                                 </div>
                             </v-overlay>
-                        </v-fade-transition> -->
+                        </v-fade-transition>
 
-<!--                         <v-fade-transition>
+                       <v-fade-transition>
                             <v-overlay class='cr-newcharge-overlay' :z-index='zpersonWarrant' :value='personWarrant'>
                                 <div class='cr-newcharge-card'>
                                     <h2>PERSON: {{personWarrantSelected.victim}}</h2>
@@ -513,9 +513,8 @@
                                     <v-btn :disabled='personWarrantSelected.title == "" || personWarrantSelected.incident == ""' class='cr-newcharge-submit-btn' elevation='5' @click='createNewWarrant()'>Submit</v-btn>
                                 </div>
                             </v-overlay>
-                        </v-fade-transition> -->
-
-<!--                         <v-fade-transition>
+                        </v-fade-transition>
+                       <v-fade-transition>
                             <v-overlay class='warrants-view-overlay' :z-index='zshowWarrants' :value='showWarrants'>
                                 <div class='warrants-view-card'>
                                     <h2>WARRANT ID: {{selectedWarrant.id}}</h2>
